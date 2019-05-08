@@ -1,0 +1,11 @@
+{
+    "name": "koolreport/boostrap3",
+    "version":"1.0.0",
+    "description": "Use Twitter Bootstrap 3 to design your report",
+    "keywords": ["PHP","php reprting tools","php reporting framework","mysql reporting tools","php cache"],
+    "homepage": "https://www.koolreport.com",
+    "type": "library",
+    "license": "https://www.koolreport.com/license#mit-license",
+    "require": {
+    }
+}
