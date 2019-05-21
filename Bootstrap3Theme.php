@@ -20,7 +20,7 @@ class Bootstrap3Theme extends \koolreport\core\Theme
         {
             $report->registerEvent("OnResourceInit",function() use ($report){
                 $coreFolderUrl = $report->getResourceManager()->publishAssetFolder(realpath(dirname(__FILE__)."/assets/core"));                
-                $jqueryAssetUrl = $report->getResourceManager()->publishAssetFolder(realpath(dirname(__FILE__)."/../../src/clients/jquery"));
+                $jqueryAssetUrl = $report->getResourceManager()->publishAssetFolder(realpath(dirname(__FILE__)."../core/src/clients/jquery"));
                 $resources = array(
                     "js"=>array(
                         $jqueryAssetUrl."/jquery.min.js",
