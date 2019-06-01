@@ -4,9 +4,23 @@
 
 ## Installation
 
-1. Download the package zip file
-2. Unzip
-3. Copy the `inputs` folder into `koolreport\packages`
+## By downloading .zip file
+
+1. [Download](https://www.koolreport.com/packages/bootstrap3)
+2. Unzip the zip file
+3. Copy the folder `bootstrap3` into `koolreport` folder so that look like below
+
+```bash
+koolreport
+├── core
+├── bootstrap3
+```
+
+## By composer
+
+```
+composer require koolreport\bootstrap3
+```
 
 ## Usage
 
